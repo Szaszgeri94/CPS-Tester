@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+    background-color: white;  
+    caret-color: transparent;
+}
+
+p{
+    margin: 0;
+}
+
+
+#scoreboard {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+#scoreboard label{
+    font-size: 2rem;
+}
+
+#scoreboard p{
+    font-size: 2.5rem;
+}
+
+#scoreboard div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+#t1 {
+    background-color: #A78BFA;
+}
+
+#t2 {
+    background-color: #7C3AED;
+}
+
+#t3 {
+    background-color: #66B2FF; 
+}
+
+#cps-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+    height: 400px;
+}
+
+#click-box {
+    background-color: #7F5D99;
+
+    height: 350px;
+    width: 95%;
+    border-radius: 20px;
+
+    font-size: 3rem;
+}
+
+#timer-selector{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+
+#timer-selector button{
+    background-color:#3A86FF;
+    height: 80px;
+    width: 200px;
+
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+    font-size: 2rem;
+}
+
+#timer-selector button:hover{
+    background-color: #66B2FF;
+}
+
+#reset-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+#reset-container button{
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+
+    background-color: #C654C3;
+
+    height: 80px;
+    width: 200px;
+
+    font-size: 2rem;
+    color: black;
+}
+
+#reset-container button:hover{
+    background-color: #ED96D7;
+}
+
+
+#record-label {
+    font-weight: 550;
+    font-size: 3rem;
+    padding-left: 3%;
+}
+
+#records {
+    display: flex;
+    justify-content: center;
+}
+
+#record-list{
+    background-color: #66B2FF;
+
+    height: auto;
+    min-height: 100px;
+    width: 95%;
+    border-radius: 20px;
+
+    font-size: 2rem;
+    padding: 10px 10px 10px 15px;
+
+    box-sizing: border-box;
+}
+
+
+
+
+
